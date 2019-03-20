@@ -1,6 +1,5 @@
 // code away!
-const express = require('express')
-const server = express()
+const server = require('./server')
 const URL = 4000
 
 server.listen(URL, () => {
